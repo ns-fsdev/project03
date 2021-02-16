@@ -1,0 +1,32 @@
+** USER STORIES ** 
+
+
+ Project 03  
+ ReactJS TO DO List App
+
+ FLORIDA Atlantic Univesity /Quickstart
+ Full-Stack Web Developer
+ By Nigel Sampath
+
+
+
+** USER Stories **
+
+
+USER 1  - Casual user: 
+fun online app
+to record To Do activities.
+
+
+USER 2  - Developer: 
+A Developer can use this
+app to track learning goals.
+e.g learn React
+    learn React router
+    learn Python Django
+
+
+
+
+
+
