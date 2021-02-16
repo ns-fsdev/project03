@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+/*  
+  App.css
+  Main style sheet for entire app 
+   
+*/
+/*  ReactJS To Do List App
+    by Nigel Sampath
+       Florida Atlantic University
+       Full-Stack Developer Bootcamp
+*/  
+
+
+.App  {
+      text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/**  MAIN NAVBAR  **/
+#Navbar {
+      background-color:black;
+      padding: 0.75rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#Navbar a {
+      color:cadetblue;
+      padding-left : 3.0em;
+      padding-right: 3.0em;
+      padding-top   : 0.5em;
+      padding-bottom: 0.5em;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#Navbar a:active {
+      color:lightskyblue;
 }
 
-.App-link {
-  color: #61dafb;
+#Navbar a:hover {
+      color:lightskyblue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/** TO DO  LIST  **/
+
+/* Main List, items */
+li    {
+      text-align:          left;
+      list-style-position: inside;
+      list-style-type    : ;       /* bullets */
+}
+
+
+/* Main List, status   */
+.StatusBox {
+      list-style-type:none;
+      text-align: center;
+      color: black;
+}
+
+.Intro{
+      height: 6rem;
+}
+
+/*  Contact form Input  */
+
+
+.formdiv {
+      color: darkmagenta;
+}
+
+.inputfield {
+      margin: 0.75rem; 
+
+}
+
+/*  div  About page  */
+.About {
+      font-family: fixed;
+      font-size  : 1.2em;
+      padding-top: 1.5rem;
+}
+
+.aboutProgram {
+      color: darkgreen;
+}
+
+.aboutTech {
+      color: darkmagenta;
+
 }
